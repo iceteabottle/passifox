@@ -108,7 +108,6 @@ cipAutocomplete.init = function(field) {
 		.blur(cipAutocomplete.onBlur)
 		.focus(cipAutocomplete.onFocus);
 		
-	field.click();
 }
 
 cipAutocomplete.onClick = function() {
